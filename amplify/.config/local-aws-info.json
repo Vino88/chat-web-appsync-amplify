@@ -1,0 +1,42 @@
+{
+    "master": {
+        "configLevel": "project",
+        "useProfile": false,
+        "awsConfigFilePath": "C:\\Users\\lime\\.amplify\\awscloudformation\\JFfvEtMd5M"
+    },
+    "dev": {
+        "configLevel": "project",
+        "useProfile": true,
+        "profileName": "default"
+    },
+    "prod": {
+        "configLevel": "project",
+        "useProfile": false,
+        "awsConfigFilePath": "C:\\Users\\lime\\.amplify\\awscloudformation\\TG1y2AZpZr"
+    },
+    "production": {
+        "configLevel": "project",
+        "useProfile": false,
+        "awsConfigFilePath": "C:\\Users\\lime\\.amplify\\awscloudformation\\NMxdSDdbHD"
+    },
+    "testing": {
+        "configLevel": "project",
+        "useProfile": false,
+        "awsConfigFilePath": "C:\\Users\\lime\\.amplify\\awscloudformation\\P9m2R8J7nA"
+    },
+    "develop": {
+        "configLevel": "project",
+        "useProfile": false,
+        "awsConfigFilePath": "C:\\Users\\lime\\.amplify\\awscloudformation\\i0O8OcStg5"
+    },
+    "app": {
+        "configLevel": "project",
+        "useProfile": false,
+        "awsConfigFilePath": "C:\\Users\\lime\\.amplify\\awscloudformation\\wX5djtiH2L"
+    },
+    "apps": {
+        "configLevel": "project",
+        "useProfile": false,
+        "awsConfigFilePath": "C:\\Users\\lime\\.amplify\\awscloudformation\\RiU2NgJAHS"
+    }
+}

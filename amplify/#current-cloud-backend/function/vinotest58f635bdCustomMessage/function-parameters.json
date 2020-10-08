@@ -1,0 +1,20 @@
+{
+    "trigger": true,
+    "modules": [
+        "verification-link"
+    ],
+    "parentResource": "vinotest58f635bd",
+    "functionName": "vinotest58f635bdCustomMessage",
+    "resourceName": "vinotest58f635bdCustomMessage",
+    "parentStack": "auth",
+    "triggerEnvs": "[{\"key\":\"RESOURCENAME\",\"value\":\"resourceName\"}]",
+    "triggerDir": "C:\\Users\\lime\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-category-auth\\provider-utils\\awscloudformation\\utils/../triggers/CustomMessage",
+    "triggerTemplate": "CustomMessage.json.ejs",
+    "roleName": "vinotest58f635bdCustomMessage",
+    "skipEdit": true,
+    "REDIRECTURL": "https://testing.d3p9tw1olyeelo.amplifyapp.com/",
+    "EMAILSUBJECT": "hola",
+    "EMAILMESSAGE": "",
+    "RESOURCENAME": "resourceName",
+    "triggerEventPath": "CustomMessage.event.json"
+}

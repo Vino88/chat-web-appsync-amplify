@@ -1,0 +1,180 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-vinotest-prod-162011-authRole",
+            "UnauthRoleArn": "arn:aws:iam::778368387522:role/amplify-vinotest-prod-162011-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::778368387522:role/amplify-vinotest-prod-162011-authRole",
+            "Region": "ap-southeast-1",
+            "DeploymentBucketName": "amplify-vinotest-prod-162011-deployment",
+            "UnauthRoleName": "amplify-vinotest-prod-162011-unauthRole",
+            "StackName": "amplify-vinotest-prod-162011",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:778368387522:stack/amplify-vinotest-prod-162011/53de4390-fa59-11ea-bc71-0abba3d0eb5e",
+            "AmplifyAppId": "d1ruj3zsggxu98"
+        }
+    },
+    "production": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-vinotest-production-162240-authRole",
+            "UnauthRoleArn": "arn:aws:iam::778368387522:role/amplify-vinotest-production-162240-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::778368387522:role/amplify-vinotest-production-162240-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-vinotest-production-162240-deployment",
+            "UnauthRoleName": "amplify-vinotest-production-162240-unauthRole",
+            "StackName": "amplify-vinotest-production-162240",
+            "StackId": "arn:aws:cloudformation:us-east-2:778368387522:stack/amplify-vinotest-production-162240/af12a710-fa59-11ea-a0c7-06602d963e12",
+            "AmplifyAppId": "d2ssboa3hcvkc4"
+        }
+    },
+    "testing": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-vinotest-testing-110329-authRole",
+            "UnauthRoleArn": "arn:aws:iam::778368387522:role/amplify-vinotest-testing-110329-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::778368387522:role/amplify-vinotest-testing-110329-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-vinotest-testing-110329-deployment",
+            "UnauthRoleName": "amplify-vinotest-testing-110329-unauthRole",
+            "StackName": "amplify-vinotest-testing-110329",
+            "StackId": "arn:aws:cloudformation:us-east-2:778368387522:stack/amplify-vinotest-testing-110329/6e2475f0-fbbf-11ea-b972-0aa6e95a5778",
+            "AmplifyAppId": "d3p9tw1olyeelo"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d3p9tw1olyeelo",
+                    "type": "manual"
+                }
+            },
+            "function": {
+                "vinotest58f635bdCreateAuthChallenge": {},
+                "vinotest58f635bdCustomMessage": {
+                    "REDIRECTURL": "https://testing.d3p9tw1olyeelo.amplifyapp.com/",
+                    "EMAILSUBJECT": "hola",
+                    "EMAILMESSAGE": ""
+                },
+                "vinotest58f635bdDefineAuthChallenge": {},
+                "vinotest58f635bdVerifyAuthChallengeResponse": {
+                    "RECAPTCHASECRET": ""
+                }
+            },
+            "auth": {
+                "vinotest2bb81516": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"2391080584532999\",\"client_secret\":\"8d2551fd7a406ff2abe72f3c30e58567\"}]"
+                }
+            }
+        }
+    },
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-vinotest-dev-101155-authRole",
+            "UnauthRoleArn": "arn:aws:iam::778368387522:role/amplify-vinotest-dev-101155-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::778368387522:role/amplify-vinotest-dev-101155-authRole",
+            "Region": "ap-southeast-1",
+            "DeploymentBucketName": "amplify-vinotest-dev-101155-deployment",
+            "UnauthRoleName": "amplify-vinotest-dev-101155-unauthRole",
+            "StackName": "amplify-vinotest-dev-101155",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:778368387522:stack/amplify-vinotest-dev-101155/605fc010-fc81-11ea-b8fa-06066853c14c",
+            "AmplifyAppId": "d1ruj3zsggxu98"
+        },
+        "categories": {
+            "auth": {
+                "vinotest58f635bd": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"2391080584532999\",\"client_secret\":\"8d2551fd7a406ff2abe72f3c30e58567\"}]"
+                }
+            },
+            "function": {
+                "vinotest58f635bdCustomMessage": {
+                    "REDIRECTURL": "",
+                    "EMAILSUBJECT": "",
+                    "EMAILMESSAGE": ""
+                }
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d1ruj3zsggxu98",
+                    "type": "manual"
+                }
+            }
+        }
+    },
+    "develop": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-vinotest-develop-123041-authRole",
+            "UnauthRoleArn": "arn:aws:iam::778368387522:role/amplify-vinotest-develop-123041-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::778368387522:role/amplify-vinotest-develop-123041-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-vinotest-develop-123041-deployment",
+            "UnauthRoleName": "amplify-vinotest-develop-123041-unauthRole",
+            "StackName": "amplify-vinotest-develop-123041",
+            "StackId": "arn:aws:cloudformation:us-east-2:778368387522:stack/amplify-vinotest-develop-123041/c4ce1160-fc94-11ea-9a2a-0a7c693bb1e6",
+            "AmplifyAppId": "d3p9tw1olyeelo"
+        },
+        "categories": {
+            "auth": {
+                "vinotest2bb81516": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"2391080584532999\",\"client_secret\":\"8d2551fd7a406ff2abe72f3c30e58567\"}]"
+                }
+            },
+            "function": {
+                "vinotest58f635bdCustomMessage": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d3p9tw1olyeelo",
+                    "type": "manual"
+                }
+            }
+        }
+    },
+    "master": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-vinotest-master-124349-authRole",
+            "UnauthRoleArn": "arn:aws:iam::778368387522:role/amplify-vinotest-master-124349-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::778368387522:role/amplify-vinotest-master-124349-authRole",
+            "Region": "ap-southeast-1",
+            "DeploymentBucketName": "amplify-vinotest-master-124349-deployment",
+            "UnauthRoleName": "amplify-vinotest-master-124349-unauthRole",
+            "StackName": "amplify-vinotest-master-124349",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:778368387522:stack/amplify-vinotest-master-124349/98a64970-fc96-11ea-ae5c-0aac3d2f8c20",
+            "AmplifyAppId": "d2bh7lwojnaapw"
+        }
+    },
+    "app": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-vinotest-app-125426-authRole",
+            "UnauthRoleArn": "arn:aws:iam::778368387522:role/amplify-vinotest-app-125426-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::778368387522:role/amplify-vinotest-app-125426-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-vinotest-app-125426-deployment",
+            "UnauthRoleName": "amplify-vinotest-app-125426-unauthRole",
+            "StackName": "amplify-vinotest-app-125426",
+            "StackId": "arn:aws:cloudformation:us-east-2:778368387522:stack/amplify-vinotest-app-125426/167ada40-fc98-11ea-9213-0ab657cba05a",
+            "AmplifyAppId": "d3p9tw1olyeelo"
+        }
+    },
+    "apps": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-vinotest-apps-173447-authRole",
+            "UnauthRoleArn": "arn:aws:iam::778368387522:role/amplify-vinotest-apps-173447-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::778368387522:role/amplify-vinotest-apps-173447-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-vinotest-apps-173447-deployment",
+            "UnauthRoleName": "amplify-vinotest-apps-173447-unauthRole",
+            "StackName": "amplify-vinotest-apps-173447",
+            "StackId": "arn:aws:cloudformation:us-east-2:778368387522:stack/amplify-vinotest-apps-173447/409a5270-fcbf-11ea-9842-027eca4f3c78",
+            "AmplifyAppId": "d3p9tw1olyeelo"
+        },
+        "categories": {
+            "auth": {
+                "vinotest7b54f11d": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"2391080584532999\",\"client_secret\":\"8d2551fd7a406ff2abe72f3c30e58567\"},{\"ProviderName\":\"Google\",\"client_id\":\"767156578230-k1k5q82625uialamtnp53nloebn1t7o8.apps.googleusercontent.com\",\"client_secret\":\"FULURK8wmxvqLhREUr_7z5qL\"}]"
+                }
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d3p9tw1olyeelo",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}

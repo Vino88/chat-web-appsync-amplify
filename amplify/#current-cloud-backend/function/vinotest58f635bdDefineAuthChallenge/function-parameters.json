@@ -1,0 +1,16 @@
+{
+    "trigger": true,
+    "modules": [
+        "captcha-define-challenge"
+    ],
+    "parentResource": "vinotest58f635bd",
+    "functionName": "vinotest58f635bdDefineAuthChallenge",
+    "resourceName": "vinotest58f635bdDefineAuthChallenge",
+    "parentStack": "auth",
+    "triggerEnvs": "[]",
+    "triggerDir": "C:\\Users\\lime\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-category-auth\\provider-utils\\awscloudformation\\utils/../triggers/DefineAuthChallenge",
+    "triggerTemplate": "DefineAuthChallenge.json.ejs",
+    "roleName": "vinotest58f635bdDefineAuthChallenge",
+    "skipEdit": true,
+    "triggerEventPath": "DefineAuthChallenge.event.json"
+}

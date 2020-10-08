@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "vinotest",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authvinotest7b54f11d",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

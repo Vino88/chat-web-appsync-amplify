@@ -1,0 +1,80 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-vinotest-apps-173447-authRole",
+			"UnauthRoleArn": "arn:aws:iam::778368387522:role/amplify-vinotest-apps-173447-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::778368387522:role/amplify-vinotest-apps-173447-authRole",
+			"Region": "us-east-2",
+			"DeploymentBucketName": "amplify-vinotest-apps-173447-deployment",
+			"UnauthRoleName": "amplify-vinotest-apps-173447-unauthRole",
+			"StackName": "amplify-vinotest-apps-173447",
+			"StackId": "arn:aws:cloudformation:us-east-2:778368387522:stack/amplify-vinotest-apps-173447/409a5270-fcbf-11ea-9842-027eca4f3c78",
+			"AmplifyAppId": "d3p9tw1olyeelo"
+		}
+	},
+	"api": {
+		"vinotest": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"additionalAuthenticationProviders": [],
+					"defaultAuthentication": {
+						"authenticationType": "AMAZON_COGNITO_USER_POOLS",
+						"userPoolConfig": {
+							"userPoolId": "authvinotest7b54f11d"
+						}
+					}
+				},
+				"GraphQLAPIIdOutput": "ihvckwxndbcupdtfccsnsll2ca",
+				"GraphQLAPIEndpointOutput": "https://l7xcz4jnlrcarht7aeuz3ykpwa.appsync-api.us-east-2.amazonaws.com/graphql"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-vinotest-apps-173447-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apivinotest"
+			},
+			"lastPushTimeStamp": "2020-09-22T11:45:35.146Z",
+			"lastPushDirHash": "09vigjkRDUWwnYWhebDmyHy7WFg="
+		}
+	},
+	"auth": {
+		"vinotest7b54f11d": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false,
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-vinotest-apps-173447-deployment/amplify-cfn-templates/auth/vinotest7b54f11d-cloudformation-template.yml",
+				"logicalId": "authvinotest7b54f11d"
+			},
+			"lastPushTimeStamp": "2020-09-22T11:45:35.185Z",
+			"output": {
+				"AppClientSecret": "o44k9suqt9i8uj8ldqjlj4lufu2u8ius6mkbfssq6944mnv2pai",
+				"UserPoolId": "us-east-2_ssjtgUGQ9",
+				"AppClientIDWeb": "2fq6b3b6hefp5vfg84t6n5a8l3",
+				"AppClientID": "7pbln9k380r3n2tmovvpaeor9o",
+				"IdentityPoolId": "us-east-2:1562a812-c5dd-43e3-a5e2-2504cd15edd9",
+				"IdentityPoolName": "vinotest7b54f11d_identitypool_7b54f11d__apps",
+				"UserPoolName": "vinotest7b54f11d_userpool_7b54f11d",
+				"HostedUIDomain": "vinotest3e756ba5-3e756ba5-apps",
+				"OAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://apps.d3p9tw1olyeelo.amplifyapp.com/\"],\"LogoutURLs\":[\"https://apps.d3p9tw1olyeelo.amplifyapp.com/\"]}"
+			},
+			"lastPushDirHash": "9b3nvV577m0CMtXD9Wa3964qPSw="
+		}
+	},
+	"hosting": {
+		"amplifyhosting": {
+			"service": "amplifyhosting",
+			"providerPlugin": "awscloudformation",
+			"type": "manual",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-vinotest-apps-173447-deployment/amplify-cfn-templates/hosting/amplifyhosting-template.json",
+				"logicalId": "hostingamplifyhosting"
+			},
+			"lastPushTimeStamp": "2020-09-22T11:45:35.162Z",
+			"output": {},
+			"lastPushDirHash": "/+VZ33seFFqAr6wbtptwbINUfSA="
+		}
+	},
+	"function": {}
+}

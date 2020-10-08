@@ -1,0 +1,107 @@
+{
+    "identityPoolName": "vinotest58f635bd_identitypool_6b1b36c7",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "vinote58f635bd",
+    "userPoolName": "vinotest58f635bd_userpool_58f635bd",
+    "autoVerifiedAttributes": [
+        "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+        "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [],
+    "requiredAttributes": [
+        "email"
+    ],
+    "userpoolClientGenerateSecret": true,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [
+        "profile",
+        "email"
+    ],
+    "userpoolClientReadAttributes": [
+        "email"
+    ],
+    "userpoolClientLambdaRole": "vinote58f635bd_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": true,
+    "sharedId": "58f635bd",
+    "resourceName": "vinotest58f635bd",
+    "authSelections": "identityPoolAndUserPool",
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    },
+    "unauthRoleArn": {
+        "Fn::GetAtt": [
+            "UnauthRole",
+            "Arn"
+        ]
+    },
+    "useDefault": "defaultSocial",
+    "hostedUI": true,
+    "usernameAttributes": [
+        "email"
+    ],
+    "userPoolGroupList": [],
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "vinotest58f635bdCreateAuthChallenge",
+            "triggerProvider": "Cognito",
+            "attributes": [
+                "Arn",
+                "Name"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "vinotest58f635bdCustomMessage",
+            "triggerProvider": "Cognito",
+            "attributes": [
+                "Arn",
+                "Name"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "vinotest58f635bdDefineAuthChallenge",
+            "triggerProvider": "Cognito",
+            "attributes": [
+                "Arn",
+                "Name"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "vinotest58f635bdVerifyAuthChallengeResponse",
+            "triggerProvider": "Cognito",
+            "attributes": [
+                "Arn",
+                "Name"
+            ]
+        }
+    ],
+    "userPoolGroups": false,
+    "adminQueries": false,
+    "triggers": "{\"CreateAuthChallenge\":[\"captcha-create-challenge\"],\"CustomMessage\":[\"verification-link\"],\"DefineAuthChallenge\":[\"captcha-define-challenge\"],\"VerifyAuthChallengeResponse\":[\"captcha-verify\"]}",
+    "verificationBucketName": "vinotest58f635bdverificationbucket",
+    "parentStack": {
+        "Ref": "AWS::StackId"
+    },
+    "permissions": [],
+    "hostedUIDomainName": "vinotest6b1b36c7-6b1b36c7",
+    "authProvidersUserPool": [
+        "Facebook"
+    ],
+    "hostedUIProviderMeta": "[{\"ProviderName\":\"Facebook\",\"authorize_scopes\":\"email,public_profile\",\"AttributeMapping\":{\"email\":\"email\",\"username\":\"id\"}}]",
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://dev.d1ruj3zsggxu98.amplifyapp.com/\",\"https://dev.d1ruj3zsggxu98.amplifyapp.com/\"],\"LogoutURLs\":[\"https://dev.d1ruj3zsggxu98.amplifyapp.com/\",\"https://dev.d1ruj3zsggxu98.amplifyapp.com/\"]}"
+}
