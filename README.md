@@ -1,7 +1,7 @@
 # chat-web-AppSync
 
 #INSTALLING
-1. cmd npm intall
+1. cmd npm install
 2. install amplify cli
 3. amplify init
 4. amplify add api
